@@ -124,13 +124,13 @@ app/
 ├── models.py            # SQLAlchemy models (User, Issue, Department, etc.)
 ├── database.py          # SQLAlchemy engine and session setup
 ├── config.py            # Environment variables (Twilio, S3, JWT secrets)
-├── requirements.txt     # Python dependencies
+├── requirements.txt     
 ├── core/
 │   ├── security.py      # JWT creation, OTP generation, password hashing
 │   ├── dependencies.py  # FastAPI dependency injection (current user, etc.)
 │   └── admin_dependencies.py  # Admin auth dependencies
 ├── routers/
-│   ├── auth.py          # OTP send, verify
+│   ├── auth.py          
 │   ├── users.py         # Issue creation, user profile
 │   └── admin.py         # Department and issue management
 ├── services/
