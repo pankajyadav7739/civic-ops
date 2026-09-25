@@ -8,7 +8,7 @@ Managing civic complaints through fragmented channels (WhatsApp, calls, emails) 
 
 ## Features
 
-**Phone-based authentication with OTP**  
+**Phone-based authentication with OTPs**  
 Used Twilio for SMS rather than email because the target users are mostly on mobile with unreliable email access. OTPs expire in 5 minutes and include a 60-second retry cooldown to prevent brute force. JWT tokens with 24-hour expiry and 30-day refresh tokens.
 
 **Issue reporting with file uploads**  
